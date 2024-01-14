@@ -4,6 +4,8 @@
 
 The GymConnect project endeavors to bridge the gap in the fitness world by addressing several pressing issues. Many people find it challenging to meet like-minded fitness enthusiasts at the gym, maintain organized workout routines, and build a sense of community within their fitness journey. In response to these challenges, we propose the development of a cutting-edge mobile application, GymConnect. This innovative app will serve as an all-encompassing fitness companion, offering a multitude of features designed to empower users and create a supportive community. With GymConnect, users can easily discover workout partners who share their fitness interests, log and track their workouts, access expert guidance and information on exercises, and interact within fitness-focused communities. By setting and achieving fitness goals, users will not only improve their physical well-being but also find motivation and recognition within GymConnect's vibrant fitness community. The GymConnect project aims to redefine the gym experience, making it more engaging, connected, and ultimately, more effective for fitness enthusiasts of all levels.
 
+Project repo can be found here: https://github.com/jhu-oose-f23/team-Team99
+
 #### API INFO
 
 Backend Server running at base url: https://gymconnect.onrender.com

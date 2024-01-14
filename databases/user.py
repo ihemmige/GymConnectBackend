@@ -52,7 +52,7 @@ def delete_user(username):
   # need to delete from all tables
   t = threading.Thread(target=delete_user_helper, args=[username])
   t.start()
-  return data.data[0] if data else None
+  return data.data[0] if data.data else None
 
 '''
   Helper functions

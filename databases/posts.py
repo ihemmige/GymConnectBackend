@@ -38,7 +38,8 @@ def submit_post(data):
 
 def get_posts(username):
   data = get_user_posts(username)
-  data.sort(key=lambda x:x["date_time"], reverse=True)
+  if data:
+    data.sort(key=lambda x:x["date_time"], reverse=True)
   return data
 
 def get_feed(username):
@@ -48,7 +49,8 @@ def get_feed(username):
   data = []
   for connection in connections:
     data += get_user_posts(connection["username"])
-  data.sort(key=lambda x:x["date_time"], reverse=True)
+  if data:
+    data.sort(key=lambda x:x["date_time"], reverse=True)
   return data
 
 '''

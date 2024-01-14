@@ -1,4 +1,4 @@
-### This is a Python Flask backend server I built for a team project called GymConnect. All API endpoints and a base URL are provided below. Server interfaces with a PostgreSQL database on Supabase. Used multithreading and caching to reduce latency for more computationally-intensive API calls.
+### This is a Python Flask backend server I built for a team project called GymConnect. All API endpoints and a base URL are provided below. Server interfaces with a PostgreSQL database on Supabase. Used multithreading and caching to reduce latency for more computationally-intensive API calls, like recommendations and leaderboards.
 
 **Here's a description of the project:**
 

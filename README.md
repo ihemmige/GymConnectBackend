@@ -1,6 +1,6 @@
-Backend Server running at base url: https://gymconnectbackend.onrender.com
+Backend Server running at base url: https://gymconnect.onrender.com
 
-Basic documentation found at https://gymconnectbackend.onrender.com/swagger-ui (see here for request schemas)
+Basic documentation found at https://gymconnect.onrender.com/swagger-ui (see here for request schemas)
 
 **Endpoints**
 
@@ -216,6 +216,8 @@ Sample response below:
         "username": "k1",
         "weight": 170
     }
+
+DELETE /user/username: delete a specific user with username. Example /user/k1
 
 POST /user/login: login a specific user. Sample request body and response below:
 
@@ -462,4 +464,3 @@ GET /post/feed/username (example /post/feed/k1). Get all of the posts by all con
 Server is hosted as a free instance on Render, so spins down with inactivity. As a result, when request is made to the API when server has spun down, it takes an extra minute or so to spin up and provide that first response. This is NOT a bug or malfunction.
 
 The values inside the _list_ provided for "exercises" in request body must be dictionaries, but the dictionaries themselves can have any key-value pairs in them (ie. could add a "weight":"50" k-v pair if desired).
-# GymConnectBackend
